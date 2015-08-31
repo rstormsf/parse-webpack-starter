@@ -1,5 +1,5 @@
 module.exports = {
-  entry: "./client/main.js",
+  entry: "./client/main.jsx",
   output: {
     filename: "public/bundle.js"
   },

@@ -1,9 +1,9 @@
 doctype html
 html
   head
-    |     
+    link(href="css/bootstrap.min.css", rel="stylesheet")
+    link(rel="stylesheet", href="css/bootswatch.min.css")
     title Hello
   body
-    h1 Hello world!
-    =message
-  script(src="bundle.js")
+  #react
+  script(src="#{jsfile}")
